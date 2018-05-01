@@ -1,12 +1,12 @@
 ﻿/*
 ---
-# Metadata in MicroYaml format. See http://filemeta.org and http://schema.org
+# Metadata in MicroYaml format. See http://www.filemeta.org/CodeBit.html
 name: ConsoleHelper.cs
 description: Helper class for console applications in C#
 url: https://github.com/FileMeta/ConsoleHelper/raw/master/ConsoleHelper.cs
-version: 1.0
+version: 1.1
 keywords: codebit
-dateModified: 2017-05-25
+dateModified: 2018-04-30
 license: http://unlicense.org
 ...
 */
@@ -86,9 +86,11 @@ namespace Win32Interop
         {
             if (IsSoleConsoleOwner)
             {
+                var oldColor = Console.ForegroundColor;
                 Console.WriteLine();
                 Console.ForegroundColor = ConsoleColor.Green;
                 Console.WriteLine("Press any key to exit.");
+                Console.ForegroundColor = oldColor;
                 Console.ReadKey(true);
             }
         }
