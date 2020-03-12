@@ -1,5 +1,8 @@
 # ConsoleHelper
 A CodeBit class to make console applications more friendly.
+
+CodeBit URL: [https://github.com/FileMeta/ConsoleHelper/raw/master/ConsoleHelper.cs](https://github.com/FileMeta/ConsoleHelper/raw/master/ConsoleHelper.cs)
+
 ## About ConsoleHelper
 On windows, a console application can be run from a command-line console or directly from Windows Explorer. When run from a command line, its output will be visible in the host console even after the application exists. When run from Windows Explorer, or when debugging from Visual Studio the console closes when the app exits and the user may not have time to see the output.
 
