@@ -4,7 +4,7 @@
 name: ConsoleHelper.cs
 description: Helper class for console applications in C#
 url: https://github.com/FileMeta/ConsoleHelper/raw/master/ConsoleHelper.cs
-version: 1.1
+version: 2.0
 keywords: codebit
 dateModified: 2018-04-30
 license: http://unlicense.org
@@ -40,7 +40,7 @@ For more information, please refer to <http://unlicense.org/>
 using System;
 using System.Runtime.InteropServices;
 
-namespace Win32Interop
+namespace CodeBit
 {
 
     /// <summary>
